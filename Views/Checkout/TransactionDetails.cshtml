@@ -1,0 +1,45 @@
+@model MusicStorePos.Models.Transaction
+
+@{
+    ViewData["Title"] = "Transaction Details";
+}
+
+<div class="card shadow-sm mt-3">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+        <span>Transaction ID: @Model.TransactionId</span>
+        <span>@Model.Date.ToString("f")</span>
+    </div>
+    <div class="card-body">
+        <p><strong>Customer Name:</strong> @Model.CustomerName</p>
+        <p><strong>Customer Email:</strong> @(string.IsNullOrEmpty(Model.CustomerEmail) ? "N/A" : Model.CustomerEmail)</p>
+
+        <h5 class="mt-4 mb-3">Purchased Instruments & Accessories</h5>
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Product</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.PurchasedItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>$@item.UnitPrice.ToString("F2")</td>
+                        <td>@item.Quantity</td>
+                        <td>$@item.Total.ToString("F2")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h4 class="text-end">Grand Total Paid: <span class="text-success">$@Model.TotalAmount.ToString("F2")</span></h4>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-controller="Checkout" asp-action="History" class="btn btn-outline-secondary">← Back to History</a>
+</div>

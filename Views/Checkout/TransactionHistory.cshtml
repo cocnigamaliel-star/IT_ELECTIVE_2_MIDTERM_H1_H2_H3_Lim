@@ -1,0 +1,40 @@
+@model IEnumerable<MusicStorePos.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Transaction History";
+}
+
+<h2>📜 Transaction History</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info mt-3">No sales completed yet.</div>
+}
+else
+{
+    <table class="table table-striped align-middle mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Transaction ID</th>
+                <th>Date / Time</th>
+                <th>Customer</th>
+                <th>Total Paid</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td><code>@t.TransactionId.ToString()[..8]</code></td>
+                    <td>@t.Date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@t.CustomerName</td>
+                    <td class="fw-bold text-success">$@t.TotalAmount.ToString("F2")</td>
+                    <td>
+                        <a asp-controller="Checkout" asp-action="Details" asp-route-id="@t.TransactionId" class="btn btn-sm btn-outline-dark">View Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

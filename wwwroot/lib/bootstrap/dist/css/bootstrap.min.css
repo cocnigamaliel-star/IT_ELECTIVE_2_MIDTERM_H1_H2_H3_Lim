@@ -1,0 +1,3 @@
+/* Local CSS stub that imports Bootstrap from CDN. This keeps a local path
+   while getting the official minified CSS from CDN. */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');

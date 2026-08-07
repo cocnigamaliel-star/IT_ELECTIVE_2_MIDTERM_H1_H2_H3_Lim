@@ -1,0 +1,451 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\checkout\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\checkout\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\checkout\\transactiondetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\checkout\\transactiondetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\checkout\\transactionhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\checkout\\transactionhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\checkout\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\checkout\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\dtos\\checkoutformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:dtos\\checkoutformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\dtos\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:dtos\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|c:\\users\\63945\\downloads\\ann-website - copy\\ann-website\\idk-main\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5A6C3E-8D2A-4B1F-9E3C-2F4A8B6D9C1E}|Acoustic \u0026 Amp Music Co.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswDQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:50:07.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:35:02.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Confirmation.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\Confirmation.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Confirmation.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:34:45.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\TransactionDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\TransactionDetails.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\TransactionDetails.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\TransactionDetails.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:30:15.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\TransactionHistory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\TransactionHistory.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\TransactionHistory.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\TransactionHistory.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:29:57.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:27:03.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:18:20.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:24:35.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Checkout\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Checkout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:29:41.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:29:19.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T17:28:57.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeToolTip": "Repositories\\ShoppingCartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:24:18.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:21:28.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:21:22.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:20:22.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckoutFormDTO.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\DTOs\\CheckoutFormDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CheckoutFormDTO.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\DTOs\\CheckoutFormDTO.cs",
+              "RelativeToolTip": "DTOs\\CheckoutFormDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:19:27.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\DTOs\\UpdateCartDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateCartDTO.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\DTOs\\UpdateCartDTO.cs",
+              "RelativeToolTip": "DTOs\\UpdateCartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:19:17.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddToCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\DTOs\\AddToCartDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AddToCartDTO.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\DTOs\\AddToCartDTO.cs",
+              "RelativeToolTip": "DTOs\\AddToCartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:19:03.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:18:39.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:18:09.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\63945\\Downloads\\ann-website - Copy\\ann-website\\idk-main\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:17:34.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

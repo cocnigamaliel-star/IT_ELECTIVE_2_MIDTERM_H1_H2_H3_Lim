@@ -1,0 +1,301 @@
+:root {
+    --primary-color: #b8956e;
+    --secondary-color: #f5f0eb;
+    --accent-color: #d4a574;
+    --dark-color: #4a4540;
+    --light-color: #faf8f5;
+    --border-color: #e8e0d8;
+    --text-muted: #9a928a;
+    --success-color: #8ba888;
+    --danger-color: #c98a8a;
+    --warning-color: #d4a574;
+    --info-color: #8aa5b8;
+}
+
+body {
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: #ffffff;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(74, 69, 64, 0.04);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--dark-color) !important;
+    letter-spacing: 1.5px;
+}
+
+.nav-link {
+    color: var(--text-muted) !important;
+    margin: 0 12px;
+    transition: color 0.25s ease;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.retro-title {
+    color: var(--dark-color);
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.product-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    color: var(--dark-color);
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(184, 149, 110, 0.12);
+    border-color: var(--accent-color);
+}
+
+.product-card.out-of-stock {
+    opacity: 0.55;
+    background: var(--secondary-color);
+}
+
+.product-card .card-title {
+    font-weight: 500;
+    color: var(--dark-color);
+    letter-spacing: 0.3px;
+    margin-bottom: 0.75rem;
+}
+
+.product-card .price {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    color: var(--dark-color);
+    border-radius: 6px;
+}
+
+.card-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+hr {
+    border-color: var(--border-color);
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    color: #ffffff;
+    transition: all 0.25s ease;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.btn-success {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    border-radius: 4px;
+    transition: all 0.25s ease;
+}
+
+.btn-success:hover {
+    background: #a07f5a;
+    border-color: #a07f5a;
+    color: #ffffff;
+}
+
+.btn-warning {
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.25s ease;
+}
+
+.btn-warning:hover {
+    background: #c09060;
+    border-color: #c09060;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background: #ffffff;
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+    border-radius: 4px;
+    transition: all 0.25s ease;
+}
+
+.btn-danger:hover {
+    background: var(--danger-color);
+    border-color: var(--danger-color);
+    color: #ffffff;
+}
+
+.btn-info {
+    background: #ffffff;
+    border: 1px solid var(--info-color);
+    color: var(--info-color);
+    border-radius: 4px;
+    transition: all 0.25s ease;
+}
+
+.btn-info:hover {
+    background: var(--info-color);
+    border-color: var(--info-color);
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background: var(--border-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    border-radius: 4px;
+}
+
+.btn-lg {
+    padding: 0.6rem 1.25rem;
+    font-size: 1rem;
+}
+
+.btn-sm {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+}
+
+.cart-table {
+    background: #ffffff;
+    color: var(--dark-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.cart-table th {
+    background: var(--secondary-color) !important;
+    color: var(--dark-color) !important;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cart-table td {
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    color: var(--dark-color);
+}
+
+.form-control {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    color: var(--dark-color);
+    border-radius: 4px;
+    font-weight: 300;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    background: #ffffff;
+    border-color: var(--primary-color);
+    color: var(--dark-color);
+    box-shadow: 0 0 0 2px rgba(184, 149, 110, 0.12);
+}
+
+.form-label {
+    color: var(--dark-color);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.alert {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--dark-color);
+}
+
+.alert-success {
+    border-color: var(--success-color);
+    color: var(--success-color);
+    background: rgba(139, 168, 136, 0.06);
+}
+
+.alert-danger {
+    border-color: var(--danger-color);
+    color: var(--danger-color);
+    background: rgba(201, 138, 138, 0.06);
+}
+
+.alert-info {
+    border-color: var(--info-color);
+    color: var(--info-color);
+    background: rgba(138, 165, 184, 0.06);
+}
+
+.text-danger {
+    color: var(--danger-color) !important;
+}
+
+.text-success {
+    color: var(--success-color) !important;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+footer {
+    background: #ffffff;
+    color: var(--text-muted);
+    padding: 24px;
+    text-align: center;
+    margin-top: 48px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+}
+
+.navbar-toggler {
+    border-color: var(--border-color);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(245, 240, 235, 0.5);
+}
+
+.table-dark th {
+    background-color: var(--dark-color) !important;
+}

@@ -1,0 +1,51 @@
+@model MusicStorePos.DTOs.CheckoutFormDTO
+
+@{
+    ViewData["Title"] = "Checkout - Music Co.";
+    var cart = ViewBag.Cart as MusicStorePos.Models.ShoppingCart;
+}
+
+<h2>💳 Complete Sale</h2>
+
+<div class="row mt-3">
+    <div class="col-md-6">
+        <form asp-controller="Checkout" asp-action="ProcessCheckout" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="CustomerName" class="form-label">Customer Name *</label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CustomerEmail" class="form-label">Customer Email (Optional)</label>
+                <input asp-for="CustomerEmail" class="form-control" />
+                <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg w-100">Confirm Payment</button>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Cart Summary</div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush mb-3">
+                    @foreach (var item in cart!.Items)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong>@item.ProductName</strong><br />
+                                <small class="text-muted">@item.Quantity x $@item.UnitPrice.ToString("F2")</small>
+                            </div>
+                            <span>$@item.Total.ToString("F2")</span>
+                        </li>
+                    }
+                </ul>
+                <h4 class="text-end">Total: <span class="text-success">$@cart.GrandTotal.ToString("F2")</span></h4>
+            </div>
+        </div>
+    </div>
+</div>

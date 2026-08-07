@@ -1,0 +1,67 @@
+@model IEnumerable<MusicStorePos.Models.Product>
+
+@{
+    ViewData["Title"] = "Catalog - Acoustic & Amp Music Co.";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>🎸 Acoustic & Amp Music Co.</h2>
+    <a asp-controller="Cart" asp-action="Index" class="btn btn-warning position-relative">
+        🛒 View Cart
+        @if (ViewBag.ActiveCartCount > 0)
+        {
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                @ViewBag.ActiveCartCount
+            </span>
+        }
+    </a>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var product in Model)
+    {
+        bool isOutOfStock = product.StockQuantity <= 0;
+        <div class="col">
+            <div class="card h-100 shadow-sm @(isOutOfStock ? "bg-light opacity-75" : "")">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">@product.Name</h5>
+                    <p class="card-text fw-bold text-warning">$@product.Price.ToString("F2")</p>
+                    <p class="card-text">
+                        Inventory:
+                        @if (isOutOfStock)
+                        {
+                            <span class="badge bg-danger">Out of Stock</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">@product.StockQuantity in stock</span>
+                        }
+                    </p>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3">
+                    @if (!isOutOfStock)
+                    {
+                        <form asp-controller="Product" asp-action="AddToCart" method="post" class="d-flex gap-2">
+                            <input type="hidden" name="ProductId" value="@product.Id" />
+                            <input type="number" name="Quantity" value="1" min="1" max="@product.StockQuantity" class="form-control" style="width: 80px;" />
+                            <button type="submit" class="btn btn-dark w-100">Add to Cart</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <button class="btn btn-secondary w-100" disabled>Unavailable</button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
